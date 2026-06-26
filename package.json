@@ -1,12 +1,12 @@
 {
-  "name": "my-custom-template",
+  "name": "my-custom-template-ts",
   "version": "1.0.0",
   "description": "Custom TS scaffold package for production React layouts",
   "main": "dist/index.mjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "bin": {
-    "my-custom-template": "dist/index.mjs"
+    "my-custom-template-ts": "dist/index.mjs"
   },
   "scripts": {
     "dev": "vite",
