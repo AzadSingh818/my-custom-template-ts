@@ -87,7 +87,7 @@ export default function Auth({ onAuthSubmit }: AuthProps) {
         {/* UI branding */}
         <div style={{ display: 'flex', justifyContent: 'center', gap: '0.5rem', alignItems: 'center', marginBottom: '1.5rem' }}>
           <div style={{ width: '28px', height: '28px', background: '#3b82f6', borderRadius: '6px' }} />
-          <span style={{ fontSize: '1.2rem', fontWeight: 800, color: '#0f172a' }}>SaaSify</span>
+          <span style={{ fontSize: '1.2rem', fontWeight: 800, color: '#0f172a' }}>Create Your own App</span>
         </div>
 
         <h2 style={{ textAlign: 'center', color: '#0f172a', margin: '0 0 0.5rem 0', fontWeight: 700, fontSize: '1.5rem' }}>
@@ -96,7 +96,10 @@ export default function Auth({ onAuthSubmit }: AuthProps) {
         <p style={{ textAlign: 'center', color: '#64748b', fontSize: '0.85rem', margin: '0 0 2rem 0' }}>
           {isSignup ? "Fill down below fields to access templates" : "Enter email/password below"}
         </p>
-
+        <p style={{ textAlign: 'center', color: '#64748b', fontSize: '0.85rem', margin: '0 0 2rem 0' }}>
+          {isSignup ? "Fill down below fields to access templates" : "This is demo version, so you can use any email/password to login."}
+        </p>
+        
         {error && (
           <div style={{ background: '#fef2f2', border: '1px solid #fca5a5', color: '#ef4444', padding: '10px', borderRadius: '6px', fontSize: '0.8rem', marginBottom: '1rem', textAlign: 'center' }}>
             {error}
