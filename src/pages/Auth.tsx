@@ -89,7 +89,6 @@ export default function Auth({ onAuthSubmit }: AuthProps) {
           <div style={{ width: '28px', height: '28px', background: '#3b82f6', borderRadius: '6px' }} />
           <span style={{ fontSize: '1.2rem', fontWeight: 800, color: '#0f172a' }}>Create Your own App</span>
         </div>
-
         <h2 style={{ textAlign: 'center', color: '#0f172a', margin: '0 0 0.5rem 0', fontWeight: 700, fontSize: '1.5rem' }}>
           {isSignup ? "Create a New Account" : "Sign In to Workspace"}
         </h2>
