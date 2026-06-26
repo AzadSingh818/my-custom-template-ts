@@ -1,6 +1,6 @@
 {
   "name": "my-custom-template-ts",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Custom TS scaffold package for production React layouts",
   "main": "dist/index.mjs",
   "module": "dist/index.mjs",
