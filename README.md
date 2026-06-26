@@ -1,77 +1,87 @@
-# React + TypeScript + Vite
+# 🚀 create-custom-react-ts
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, interactive CLI scaffolding tool to set up production-ready **React + TypeScript + Vite** project layouts instantly.
 
-Currently, two official plugins are available:
+This package helps developers scaffold a clean and scalable frontend architecture without wasting time on repetitive setup.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* **Interactive CLI Prompts**
+  Built with `@clack/prompts` for a smooth terminal experience.
 
-Note: This will impact Vite dev & build performances.
+* **Instant Project Setup**
+  Automatically clones the template and installs dependencies.
 
-## Expanding the ESLint configuration
+* **Production Ready Boilerplate**
+  Comes pre-configured with modern development standards.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* **React + TypeScript + Vite**
+  Fast, lightweight, and scalable frontend setup.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🛠️ Usage
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Run the following command:
 
+```bash
+npx create-custom-react-ts@latest
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📦 What Happens After Running?
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+The CLI will:
 
-```
+* Ask for your project folder name
+* Clone the project template
+* Remove existing Git history
+* Install all required dependencies automatically
+
+---
+
+## 📂 Tech Stack Included
+
+* **React 19**
+* **TypeScript**
+* **Vite**
+* **ESLint**
+* **Modern Folder Structure**
+
+---
+
+## ⚡ Why Use This?
+
+Starting every React project from scratch takes time.
+
+This CLI helps you:
+
+* Save setup time
+* Maintain project consistency
+* Start development instantly
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+Feel free to open issues or submit pull requests for improvements.
+
+---
+
+## 👤 Author
+
+**Azad Singh**
+Full Stack Developer | Open Source Contributor
+
+GitHub: https://github.com/AzadSingh818
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
