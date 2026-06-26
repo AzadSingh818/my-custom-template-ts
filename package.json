@@ -1,42 +1,46 @@
 {
-  "name": "my-custom-template-ts",
-  "version": "1.0.5",
-  "description": "Custom TS scaffold package for production React layouts",
-  "main": "dist/index.mjs",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-  "bin": {
-    "my-custom-template-ts": "dist/index.mjs"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "tsup src/index.ts --format esm --dts",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@clack/prompts": "^0.7.0",
-    "download-git-repo": "^3.0.2",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.29.7",
-    "@eslint/js": "^10.0.1",
-    "@rolldown/plugin-babel": "^0.2.3",
-    "@types/babel__core": "^7.20.5",
-    "@types/node": "^24.13.2",
-    "@types/react": "^19.2.17",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.2",
-    "babel-plugin-react-compiler": "^1.0.0",
-    "eslint": "^10.5.0",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.3",
-    "globals": "^17.6.0",
-    "tsup": "^8.0.0",
-    "typescript": "~6.0.2",
-    "typescript-eslint": "^8.61.0",
-    "vite": "^8.1.0"
-  }
+"name": "my-custom-template-ts",
+"version": "1.0.5",
+"description": "Custom TS scaffold package for production React layouts",
+"main": "dist/index.mjs",
+"module": "dist/index.mjs",
+"types": "dist/index.d.ts",
+"repository": {
+"type": "git",
+"url": "https://github.com/AzadSingh818/my-custom-template-ts"
+},
+"bin": {
+"my-custom-template-ts": "dist/index.mjs"
+},
+"scripts": {
+"dev": "vite",
+"build": "tsup src/index.ts --format esm --dts",
+"lint": "eslint .",
+"preview": "vite preview"
+},
+"dependencies": {
+"@clack/prompts": "^0.7.0",
+"download-git-repo": "^3.0.2",
+"react": "^19.2.7",
+"react-dom": "^19.2.7"
+},
+"devDependencies": {
+"@babel/core": "^7.29.7",
+"@eslint/js": "^10.0.1",
+"@rolldown/plugin-babel": "^0.2.3",
+"@types/babel__core": "^7.20.5",
+"@types/node": "^24.13.2",
+"@types/react": "^19.2.17",
+"@types/react-dom": "^19.2.3",
+"@vitejs/plugin-react": "^6.0.2",
+"babel-plugin-react-compiler": "^1.0.0",
+"eslint": "^10.5.0",
+"eslint-plugin-react-hooks": "^7.1.1",
+"eslint-plugin-react-refresh": "^0.5.3",
+"globals": "^17.6.0",
+"tsup": "^8.0.0",
+"typescript": "~6.0.2",
+"typescript-eslint": "^8.61.0",
+"vite": "^8.1.0"
+}
 }
